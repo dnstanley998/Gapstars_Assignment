@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="HerokuAppSuite">
+    <test name="HomePageTest">
+        <classes>
+            <class name="tests.TestHomePage" />
+            <class name="tests.TestDropdown" />
+            <class name="tests.TestCheckboxPage" />
+            <class name="tests.TestFileUpload" />
+            <class name="tests.TestInputs" />
+        </classes>
+    </test>
+</suite>
